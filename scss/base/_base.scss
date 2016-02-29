@@ -1,4 +1,45 @@
 /* Base Styles -------------------- */
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
 
+@-ms-viewport{
+  width: device-width;
+}
+
+
+body {
+  font-family: 'Karla', sans-serif;
+  margin: 0;
+}
+
+.top-menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  margin: 0;
+  display: flex;
+  align-items: baseline;
+  & li:first-child {
+    padding: 0.4rem 0.8rem;
+    border: 2px solid $white;
+    border-radius: 3px;
+  }
+}
+
+li {
+  list-style: none;
+  font-size: 0.9rem;
+  margin: 10px;
+  padding: 20px 11px;
+  text-align: center;
+  color: $white;
+}
 
 /* Pseudo-classes ------------------ */

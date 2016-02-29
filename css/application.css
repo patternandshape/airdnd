@@ -1,0 +1,107 @@
+/* Base Styles -------------------- */
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+@-ms-viewport {
+  width: device-width; }
+body {
+  font-family: 'Karla', sans-serif;
+  margin: 0; }
+
+.top-menu {
+  display: flex;
+  justify-content: space-between; }
+
+ul {
+  margin: 0;
+  display: flex;
+  align-items: baseline; }
+  ul li:first-child {
+    padding: 0.4rem 0.8rem;
+    border: 2px solid #fff;
+    border-radius: 3px; }
+
+li {
+  list-style: none;
+  font-size: 0.9rem;
+  margin: 10px;
+  padding: 20px 11px;
+  text-align: center;
+  color: #fff; }
+
+/* Pseudo-classes ------------------ */
+nav {
+  background: url("../img/swans.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 609px; }
+
+.form-box {
+  height: 100vh;
+  width: 100%; }
+
+.flex-form > *:not([type="date"]) {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white; }
+
+.flex-form input[type="submit"] {
+  background: #FF5A5F;
+  border-top: 1px solid #FF5A5F;
+  border-bottom: 1px solid #FF5A5F;
+  color: white; }
+
+.flex-form > * {
+  border: 0;
+  padding: 10px;
+  background: white;
+  line-height: 50px;
+  font-size: 20px;
+  border-radius: 0;
+  outline: 0;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  -webkit-appearance: none; }
+
+.flex-form > *:last-child {
+  border-right: 0; }
+
+/*Flexbox Starts Here*/
+.form-box {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.flex-form {
+  z-index: 10;
+  border: 20px solid rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  display: flex; }
+
+h1 {
+  margin: 125px auto 0;
+  text-align: center;
+  color: #fff;
+  font-size: 4em; }
+
+h3 {
+  text-align: center;
+  color: #fff;
+  font-weight: normal;
+  margin: 0 auto 0 auto;
+  font-size: 1.12em; }
+
+input[type="search"] {
+  flex-basis: 500px; }
+
+.logo img {
+  padding: 0 0 0 10px;
+  max-width: 123px;
+  display: flex;
+  justify-content: flex-start; }
+
+/* Web fonts --------*/
+
+/*# sourceMappingURL=application.css.map */

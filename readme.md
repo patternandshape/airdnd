@@ -17,6 +17,7 @@ A responsive replica of Airbnb.com.
 * SCSS
 * Atom
 * Terminal
+* Google Fonts
 * Font Awesome
 
 
