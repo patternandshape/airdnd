@@ -28,7 +28,7 @@ ul {
 li {
   list-style: none;
   font-size: 0.9rem;
-  margin: 10px;
+  margin: 0 13px;
   padding: 20px 11px;
   text-align: center;
   color: #fff; }
@@ -41,7 +41,6 @@ nav {
   height: 609px; }
 
 .form-box {
-  height: 100vh;
   width: 100%; }
 
 .flex-form > *:not([type="date"]) {
@@ -52,13 +51,13 @@ nav {
   background: #FF5A5F;
   border-top: 1px solid #FF5A5F;
   border-bottom: 1px solid #FF5A5F;
-  color: white; }
+  color: white;
+  font-size: 0.95rem; }
 
 .flex-form > * {
   border: 0;
-  padding: 10px;
+  padding: 0px 30px;
   background: white;
-  line-height: 50px;
   font-size: 20px;
   border-radius: 0;
   outline: 0;
@@ -72,35 +71,64 @@ nav {
 .form-box {
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px auto;
+  height: 120px; }
 
 .flex-form {
   z-index: 10;
-  border: 20px solid rgba(0, 0, 0, 0.3);
   border-radius: 5px;
-  display: flex; }
+  display: flex;
+  width: 910px; }
+  .flex-form label {
+    font-size: 1.1rem;
+    flex: 1; }
+  .flex-form select {
+    font-size: 1.0rem; }
+  .flex-form input:first-child {
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px; }
+  .flex-form input:last-child {
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px; }
 
 h1 {
   margin: 125px auto 0;
   text-align: center;
   color: #fff;
-  font-size: 4em; }
+  font-size: 4rem; }
 
 h3 {
   text-align: center;
   color: #fff;
   font-weight: normal;
   margin: 0 auto 0 auto;
-  font-size: 1.12em; }
+  font-size: 1.12rem; }
 
 input[type="search"] {
-  flex-basis: 500px; }
+  flex-basis: 500px;
+  font-size: 0.95rem; }
 
 .logo img {
+  margin: -10px 0 0 0;
   padding: 0 0 0 10px;
   max-width: 123px;
   display: flex;
   justify-content: flex-start; }
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .banner button {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    padding: 10px 25px;
+    color: #fff;
+    border-radius: 2px;
+    font-size: .95rem;
+    margin: 1.5rem 0 0 0; }
 
 /* Web fonts --------*/
 
