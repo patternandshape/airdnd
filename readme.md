@@ -4,7 +4,7 @@
 
 February 29, 2016
 
-##### By Molly Curtin & Dustin Davis
+##### By Molly Curtin &amp; Dustin Davis
 
 ### Description
 
@@ -15,8 +15,6 @@ A responsive replica of Airbnb.com.
 
 * HTML
 * SCSS
-* Atom
-* Terminal
 * Google Fonts
 * Font Awesome
 
@@ -25,4 +23,4 @@ A responsive replica of Airbnb.com.
 
 *This software is licensed under the MIT license.*
 
-&copy;2016 **Molly Curtin &amp; Dustin Davis**
+&copy; 2016 **Molly Curtin &amp; Dustin Davis**
